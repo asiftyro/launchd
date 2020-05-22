@@ -230,11 +230,9 @@ Arguments to be passed to program -
 ```
 <key>ProgramArguments</key>
 <array>
-	<string>/usr/bin/rsync</string>
-	<string>--archive</string>
-	<string>--compress-level=9</string>
-	<string>/Volumes/Macintosh HD</string>
-	<string>/Volumes/Backup</string>
+	<string>/path/to/program</string>
+	<string>--arg</string>
+	<string>--arg2=9</string>
 </array>
 ```
 
