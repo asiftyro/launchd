@@ -210,7 +210,7 @@ launchctl list
 ### Some useful keys to use in plist files:
 
 
-Starting a program every 70 seconds
+Starting a program every 70 seconds - 
 ```
 <key>StartInterval</key>
 <integer>70</integer>
@@ -281,6 +281,7 @@ Interval to run the program -
 </dict>
 ```
 
+Keys usable in StartCalendarInterval dict - 
 
 |Key|Type|Values|
 |---|----|------|
@@ -303,7 +304,7 @@ Keep the program running always -
 ```
 
 
-Restart the program untill it succeeds - 
+Restart the program as long as it produces error - 
 ```
 <key>KeepAlive</key>
 <dict>
@@ -333,7 +334,7 @@ Start the program if network connection is on -
 ```
 
 
-Start a job alive if a given path exists 
+Start a program if a given path exists 
 ```
 <key>KeepAlive</key>
 <dict>
