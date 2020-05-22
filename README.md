@@ -1,4 +1,4 @@
-# How to create Launchd User Agents to run python script at a schedule on MacOS Catalina
+# How to create Launchd User Agent Jobs to run python script at a schedule on MacOS Catalina
 
 
 ### Steps:
