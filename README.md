@@ -114,9 +114,9 @@ Sample plist file:
     </dict>
 </dict>
 </plist>
-```xml
-3. Run script at 5:30 pm on every Sunday and Saturday:
 ```
+3. Run script at 5:30 pm on every Sunday and Saturday:
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
