@@ -1,3 +1,5 @@
+## documentation in progress
+
 # How to create Launchd User Agents to run python script at a schedule on MacOS Catalina
 
 
@@ -8,7 +10,7 @@ Steps:
 
 Sample plist file:
 1. Run script at 5:30 pm everyday:
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -40,7 +42,7 @@ Sample plist file:
 ```
 
 2. Run script at 5:30 pm and 8:00 am everyday:
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -81,7 +83,7 @@ Sample plist file:
 
 
 3. Run script at 5:30 pm on every Sunday:
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -112,7 +114,7 @@ Sample plist file:
     </dict>
 </dict>
 </plist>
-```
+```xml
 3. Run script at 5:30 pm on every Sunday and Saturday:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
