@@ -4,7 +4,7 @@
 ### Steps:
 
 
-1. Create a plist (Propert List) file in /Users/<user_name>/Library/LaunchAgents. It is an XML file that contains job details, i.e. command to run script, location of the script, script execution time table, error reporting file path and stdout file path among some other specification. The plist file name should be unique and as a convention, its should be written in reverse domain notation, e.g.org.w3c.dom
+1. Create a plist (Property List) file in /Users/<user_name>/Library/LaunchAgents. It is an XML file that contains job details, i.e. command to run script, location of the script, script execution time table, error reporting file path and stdout file path among some other specification. The plist file name should be unique and as a convention, its should be written in reverse domain notation, e.g.org.w3c.dom
 2. Load and start the plist by `launchctl` command.
 
 Load plist - 
